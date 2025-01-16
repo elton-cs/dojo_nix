@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
   version = "1.0.9";
 
   src = fetchurl {
-    url = "https://github.com/dojoengine/dojo/releases/download/${version}/dojo_v${version}_linux_amd64.tar.gz";
+    url = "https://github.com/dojoengine/dojo/releases/download/v${version}/dojo_v${version}_linux_amd64.tar.gz";
     sha256 = "sha256-iNlpWA5J8g2RXpFKi4RQxGR4FqGq+Xa0EpwetLcxoMg=";
   };
 
